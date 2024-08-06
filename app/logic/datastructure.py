@@ -58,8 +58,8 @@ class FileAdd:
 
     @classmethod
     async def upload_file(cls, f, file) -> None:
-        new_file = f.write(file.file.read())
-        return new_file
+        f.write(file.file.read())
+        return None
 
     @classmethod
     async def get_metadata(cls, f) -> Dict[str, Union[uuid, int, str]]:
