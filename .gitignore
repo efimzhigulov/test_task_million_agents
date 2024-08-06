@@ -1,0 +1,9 @@
+.vscode/
+.idea/
+venv/
+**/.pytest_cache/**
+**/__pycache__/**
+**/.hypothesis/**
+.mypy_cache
+.coverage
+.DS_Store
